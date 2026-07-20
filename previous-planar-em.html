@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planar Electromagnetic Actuators and MEMS Force Metrology | PIC Lab</title>
+  <meta name="description" content="Completed UT Dallas research on closed-form planar electromagnetic actuator optimization and MEMS force measurement.">
+  <meta name="theme-color" content="#0d2742">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Planar Electromagnetic Actuators and MEMS Force Metrology | PIC Lab">
+  <meta property="og:description" content="Completed UT Dallas research on closed-form planar electromagnetic actuator optimization and MEMS force measurement.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="PIC Lab home">
+      <span class="brand-mark" aria-hidden="true">PIC</span>
+      <span class="brand-copy"><strong>Precision Instrumentation &amp; Control Laboratory</strong><span>Electrical Engineering · IIT Kharagpur</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg>
+    </button>
+    <nav class="site-nav" id="site-navigation" data-open="false" aria-label="Primary navigation"><a href="index.html">Home</a><a href="current-research.html">Research</a><a aria-current="page" href="previous-research.html">Previous Research</a><a href="people.html">People</a><a href="publications.html">Publications</a><a class="nav-cta" href="opportunities.html">Opportunities</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main id="main-content"><section class="page-hero">
+  <div class="container page-hero-grid">
+    <div><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><a href="previous-research.html">Previous Research</a><span>Planar EM Actuators</span></nav><span class="eyebrow">Selected previous research</span><h1>Planar Electromagnetic Actuators and MEMS Force Metrology</h1><p class="lead">Closed-form design rules for high-force, high-stiffness, and high-bandwidth planar actuation.</p><p class="kicker">Postdoctoral research · UT Dallas · Completed and published</p></div>
+    <div class="page-hero-media"><img src="assets/images/previous-force-full.webp" alt="Composite showing a planar electromagnetic actuator, MEMS force sensor, and force profiles"></div>
+  </div>
+</section>
+<section class="section"><div class="container article-layout"><article class="prose">
+<h2 id="overview">Project overview</h2><p>This project established analytical design rules for improving the force density, trapping stiffness, and achievable bandwidth of planar electromagnetic actuators used in levitated precision stages and untethered micro-robotic systems.</p><p>Closed-form expressions connected actuator performance with coil pitch, conductor geometry, magnet dimensions, magnet position, magnetization, and current. A custom MATLAB numerical model and a feedback-controlled MEMS force sensor were used for validation.</p>
+<h2 id="motivation">Why the work mattered</h2><p>The natural frequency and realistic closed-loop bandwidth of a levitated electromagnetic platform depend strongly on trapping stiffness relative to moving mass. Optimizing absolute force alone is insufficient; the relevant metrics are force and stiffness per unit moving volume.</p>
+<h2 id="approach">Technical approach</h2><ul class="check-list"><li>Closed-form electromagnetic field, force, and stiffness derivation</li><li>Optimization of magnet dimensions, coil pitch, and separation</li><li>Magnetic-array scaling strategies</li><li>Custom MATLAB-based numerical verification</li><li>Feedback-controlled MEMS force measurement</li><li>Experimental comparison across geometries</li></ul>
+<h2 id="results">Selected results</h2><div class="metric-grid"><div class="metric-card"><strong>100×</strong><span>Higher force per unit volume for a tenfold reduction in coil pitch.</span></div><div class="metric-card"><strong>1000×</strong><span>Higher trapping stiffness per unit volume for the same pitch reduction.</span></div><div class="metric-card"><strong>&lt;15%</strong><span>Maximum model–experiment discrepancy.</span></div><div class="metric-card"><strong>4 nN</strong><span>Feedback force-measurement resolution of the MEMS sensor.</span></div></div>
+<figure class="figure"><img src="assets/images/previous-force-full.webp" alt="Planar coil interacting with a magnet attached to a MEMS force sensor, with measured and modeled force plots"><figcaption>Optimization and validation of planar electromagnetic actuation. The panels show the actuator–force-sensor arrangement, the MEMS force transducer, and measured and modeled periodic force profiles.</figcaption></figure>
+<h2 id="contribution">Research leadership and contribution</h2><blockquote><p><strong>Dr. Singh independently conceived and led the analytical, numerical, and experimental development of this project during his postdoctoral research.</strong> Building on earlier electromagnetic modeling developed with Prof. G. R. Jayanth, he derived complete closed-form design relationships for planar electromagnetic actuators, identified geometries that maximize force and trapping stiffness per unit volume, developed the MATLAB-based numerical model, and designed and conducted the experimental validation using a MEMS force sensor. Diyako Dadkhah assisted with force-sensor operation and measurements, and Prof. S. O. Reza Moheimani provided guidance and supervision.</p></blockquote>
+<h2 id="connection">Connections to current PIC Lab research</h2><p>The scaling laws support higher-stiffness electromagnetic traps for contactless positioning. Miniaturized high-stiffness actuators may support replicated probe systems for parallel AFM, while the feedback force-measurement framework informs calibrated mechanical stimulation in mechanobiology.</p>
+<h2 id="publication">Publication</h2><p><strong>K. S. Vikrant, D. Dadkhah, and S. O. R. Moheimani</strong>, “Optimization of Design Parameters to Improve Performance of a Planar Electromagnetic Actuator,” <em>IEEE Transactions on Magnetics</em>, 60(9), 8000610, 2024.</p><div class="button-row"><a class="button" href="https://doi.org/10.1109/TMAG.2024.3425224" target="_blank" rel="noopener noreferrer">Read the paper</a><a class="button button-secondary" href="publications.html">Publication list</a></div>
+<h2 id="credits">Credits</h2><div class="credit-grid"><div class="credit-item"><strong>Research conception and leadership</strong><span>Dr. Vikrant Kumar Singh</span></div><div class="credit-item"><strong>Experimental assistance</strong><span><a href="https://www.linkedin.com/in/diyako-dadkhah-0b3272196/" target="_blank" rel="noopener noreferrer">Diyako Dadkhah</a></span></div><div class="credit-item"><strong>Guidance and supervision</strong><span><a href="https://www.linkedin.com/in/s-o-reza-moheimani-aa41ba122/" target="_blank" rel="noopener noreferrer">Prof. S. O. Reza Moheimani</a></span></div><div class="credit-item"><strong>Institution</strong><span>University of Texas at Dallas</span></div></div>
+</article><aside class="sidebar"><div class="sidebar-card toc"><h3>On this page</h3><a href="#overview">Overview</a><a href="#motivation">Why it mattered</a><a href="#approach">Technical approach</a><a href="#results">Results</a><a href="#contribution">Contribution</a><a href="#connection">Current connections</a><a href="#publication">Publication</a></div><div class="sidebar-card"><h3>Cross-cutting foundation</h3><p>Contactless positioning, parallel AFM, mechanobiology force sensing, and open instrumentation.</p></div></aside></div></section>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h2>Precision Instrumentation and Control Laboratory</h2>
+        <p>Inventing precision instruments through actuation, sensing, and control.</p>
+        <p>Department of Electrical Engineering<br>Indian Institute of Technology Kharagpur</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <div class="footer-links">
+          <a href="current-research.html">Current Research</a>
+          <a href="previous-research.html">Selected Previous Research</a>
+          <a href="people.html">People</a>
+          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
+          <a href="opportunities.html">Opportunities</a>
+        </div>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <div class="footer-links">
+          <a href="mailto:vikrantkumarsingh@ee.iitkgp.ac.in">vikrantkumarsingh@ee.iitkgp.ac.in</a>
+          <span>C-316, New Chemical Engineering Department</span>
+          <span>IIT Kharagpur, West Bengal 721302, India</span>
+          <a href="contact.html">Contact and location</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-current-year></span> PIC Lab, IIT Kharagpur.</p>
+      <p>Facilities and team information will be updated as the laboratory develops.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

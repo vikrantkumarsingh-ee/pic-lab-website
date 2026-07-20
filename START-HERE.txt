@@ -1,0 +1,8 @@
+PIC LAB WEBSITE — START HERE
+
+1. Double-click index.html to preview the website locally.
+2. Review the pages on a computer and a phone.
+3. Read GITHUB-PAGES-GUIDE.md when ready to publish.
+4. Upload the CONTENTS of this folder to the repository root. Do not upload only the ZIP file.
+
+The website is plain HTML/CSS/JavaScript and needs no installation or build command.
